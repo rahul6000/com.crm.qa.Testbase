@@ -20,7 +20,7 @@ public class TestBase  {
             try {
 
                 prop = new Properties();
-                FileInputStream ip = new FileInputStream("Macintosh HD\u2069 ▸ \u2068Users\u2069 ▸ \u2068rahul\u2069 ▸ \u2068IdeaProjects\u2069 ▸ \u2068com.crm.qa.Testbase\u2069 ▸ \u2068src\u2069 ▸ \u2068main\u2069 ▸ \u2068java\u2069 ▸ \u2068com\u2069 ▸ \u2068auto\u2069 ▸ \u2068qa\u2069 ▸ \u2068config\u2069");
+                FileInputStream ip = new FileInputStream("/Users/rahul/IdeaProjects/com.crm.qa.Testbase/src/main/java/com/auto/qa/config.properties");
                 prop.load(ip);
 
             } catch (FileNotFoundException e) {
@@ -34,7 +34,7 @@ public class TestBase  {
             String browserName = prop.getProperty("browser");
 
             if(browserName.equals("chrome")){
-                System.setProperty("webdriver.chrome.driver", "Macintosh HD\u2069 ▸ \u2068Users\u2069 ▸ \u2068rahul\u2069 ▸ \u2068Desktop\u2069 ▸ \u2068testing\u2069.chromedriver");
+                System.setProperty("webdriver.chrome.driver", "/Users/rahul/Desktop/testing/chromedriver");
                 driver = new ChromeDriver();
             }
 
