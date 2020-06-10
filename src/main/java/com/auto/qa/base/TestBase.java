@@ -10,34 +10,31 @@ import java.io.IOException;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
-public class TestBase  {
+public class TestBase {
 
-        public static WebDriver driver;
-        public static Properties prop;
+    public static WebDriver driver;
+    public static Properties prop;
 
 
-        public TestBase() {
-            try {
+    public TestBase() {
+        try {
+            prop = new Properties();
+            FileInputStream ip = new FileInputStream("/Users/rahul/IdeaProjects/com.crm.qa.Testbase/src/main/java/com/auto/qa/config/config.properties");
+            prop.load(ip);
 
-                prop = new Properties();
-                FileInputStream ip = new FileInputStream("/Users/rahul/IdeaProjects/com.crm.qa.Testbase/src/main/java/com/auto/qa/config.properties");
-                prop.load(ip);
-
-            } catch (FileNotFoundException e) {
-                e.printStackTrace();
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
         }
+    }
 
-        public static void initialization (){
-            String browserName = prop.getProperty("browser");
+    public static void initialization() {
+        String browserName = prop.getProperty("browser");
 
-            if(browserName.equals("chrome")){
-                System.setProperty("webdriver.chrome.driver", "/Users/rahul/Desktop/testing/chromedriver");
-                driver = new ChromeDriver();
-            }
-
+        if (browserName.equals("chrome")) {
+            System.setProperty("webdriver.chrome.driver", "/Users/rahul/Desktop/testing/chromedriver");
+            driver = new ChromeDriver();
             driver.manage().window().maximize();
             driver.manage().deleteAllCookies();
             driver.manage().timeouts().pageLoadTimeout(TestUtil.PAGE_LOAD_TIMEOUT, TimeUnit.SECONDS);
@@ -46,4 +43,5 @@ public class TestBase  {
             driver.get(prop.getProperty("url"));
         }
     }
+}
 
