@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="com.crm.qa.Testbase" verbose="1"  >
+
+    <test name="HomeTest">
+        <classes>
+            <class name="com.auto.qa.Testcases.HomeTest" ></class>
+            //Add all your Test classes here like above
+        </classes>
+    </test>
+</suite>
+
