@@ -38,7 +38,7 @@ public class TestBase {
     public static void initialization() {
         String browserName = prop.getProperty("browser");
 
-        if (browserName.equals("chrome")) {
+        //if (browserName.equals("chrome")) { webdriver mananger is not working with IF condition.
             //System.setProperty("webdriver.chrome.driver", "/Users/rahul/Desktop/testing/chromedriver");
             WebDriverManager.chromedriver().setup();
             driver = new ChromeDriver();
@@ -55,5 +55,5 @@ public class TestBase {
             driver.get(prop.getProperty("url"));
         }
     }
-}
+//}
 
