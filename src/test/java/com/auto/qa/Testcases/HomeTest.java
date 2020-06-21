@@ -21,7 +21,7 @@ public class HomeTest extends TestBase {
     homepage=new Home();
     }
 
-    @Test
+    @Test (priority = 1)
     public void titletest(){
         String homepagetitle=homepage.validateHomePageTitle();
         System.out.println(homepagetitle);
@@ -30,23 +30,23 @@ public class HomeTest extends TestBase {
     }
 
 
-    @Test
+    @Test (priority = 2)
     public void searchBarTest(){
      homepage.searchbar("search");
    }
-    @Test
+    @Test (priority = 3)
     public void womanLabel(){
         homepage.womanlabel();
     }
-    @Test
+    @Test (priority = 4)
     public void dressLabel(){
         homepage.dresslabel();
     }
-    @Test
+    @Test (priority = 5)
     public void tshirtLabel(){
         homepage.tshirtlabel();
     }
-    @Test
+    @Test (priority = 6)
     public void nLetter(){
         homepage.newsLetter("email");
     }

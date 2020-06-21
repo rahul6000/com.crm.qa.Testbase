@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="131638" started-at="2020-06-19T19:19:23 BST" finished-at="2020-06-19T19:21:34 BST">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="131638" started-at="2020-06-19T19:19:23 BST" finished-at="2020-06-19T19:21:34 BST">
+      <class name="com.auto.qa.Testcases.HomeTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.auto.qa.Testcases.HomeTest@7d907bac]" name="setup" is-config="true" duration-ms="77142" started-at="2020-06-19T19:19:23 BST" finished-at="2020-06-19T19:20:40 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="titletest()[pri:1, instance:com.auto.qa.Testcases.HomeTest@7d907bac]" name="titletest" duration-ms="804" started-at="2020-06-19T19:20:40 BST" finished-at="2020-06-19T19:20:41 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titletest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.auto.qa.Testcases.HomeTest@7d907bac]" name="teardown" is-config="true" duration-ms="1157" started-at="2020-06-19T19:20:41 BST" finished-at="2020-06-19T19:20:42 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.auto.qa.Testcases.HomeTest@7d907bac]" name="setup" is-config="true" duration-ms="10592" started-at="2020-06-19T19:20:42 BST" finished-at="2020-06-19T19:20:53 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="searchBarTest()[pri:2, instance:com.auto.qa.Testcases.HomeTest@7d907bac]" name="searchBarTest" duration-ms="5293" started-at="2020-06-19T19:20:53 BST" finished-at="2020-06-19T19:20:58 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchBarTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.auto.qa.Testcases.HomeTest@7d907bac]" name="teardown" is-config="true" duration-ms="293" started-at="2020-06-19T19:20:58 BST" finished-at="2020-06-19T19:20:58 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.auto.qa.Testcases.HomeTest@7d907bac]" name="setup" is-config="true" duration-ms="6796" started-at="2020-06-19T19:20:58 BST" finished-at="2020-06-19T19:21:05 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="womanLabel()[pri:3, instance:com.auto.qa.Testcases.HomeTest@7d907bac]" name="womanLabel" duration-ms="1073" started-at="2020-06-19T19:21:05 BST" finished-at="2020-06-19T19:21:06 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- womanLabel -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.auto.qa.Testcases.HomeTest@7d907bac]" name="teardown" is-config="true" duration-ms="228" started-at="2020-06-19T19:21:06 BST" finished-at="2020-06-19T19:21:06 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.auto.qa.Testcases.HomeTest@7d907bac]" name="setup" is-config="true" duration-ms="6729" started-at="2020-06-19T19:21:06 BST" finished-at="2020-06-19T19:21:13 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="dressLabel()[pri:4, instance:com.auto.qa.Testcases.HomeTest@7d907bac]" name="dressLabel" duration-ms="1042" started-at="2020-06-19T19:21:13 BST" finished-at="2020-06-19T19:21:14 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dressLabel -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.auto.qa.Testcases.HomeTest@7d907bac]" name="teardown" is-config="true" duration-ms="319" started-at="2020-06-19T19:21:14 BST" finished-at="2020-06-19T19:21:14 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.auto.qa.Testcases.HomeTest@7d907bac]" name="setup" is-config="true" duration-ms="7630" started-at="2020-06-19T19:21:14 BST" finished-at="2020-06-19T19:21:22 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="tshirtLabel()[pri:5, instance:com.auto.qa.Testcases.HomeTest@7d907bac]" name="tshirtLabel" duration-ms="2755" started-at="2020-06-19T19:21:22 BST" finished-at="2020-06-19T19:21:25 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tshirtLabel -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.auto.qa.Testcases.HomeTest@7d907bac]" name="teardown" is-config="true" duration-ms="822" started-at="2020-06-19T19:21:25 BST" finished-at="2020-06-19T19:21:26 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.auto.qa.Testcases.HomeTest@7d907bac]" name="setup" is-config="true" duration-ms="6840" started-at="2020-06-19T19:21:26 BST" finished-at="2020-06-19T19:21:32 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="nLetter()[pri:6, instance:com.auto.qa.Testcases.HomeTest@7d907bac]" name="nLetter" duration-ms="1871" started-at="2020-06-19T19:21:32 BST" finished-at="2020-06-19T19:21:34 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nLetter -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.auto.qa.Testcases.HomeTest@7d907bac]" name="teardown" is-config="true" duration-ms="178" started-at="2020-06-19T19:21:34 BST" finished-at="2020-06-19T19:21:34 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.auto.qa.Testcases.HomeTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

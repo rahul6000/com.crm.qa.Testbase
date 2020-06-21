@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <suite name="com.crm.qa.Testbase" verbose="1"  >
-
+    <listeners>
+        <listener class-name="com.auto.qa.ExtentReportListener.ExtentReporterNG"/>
+    </listeners>
     <test name="HomeTest">
         <classes>
             <class name="com.auto.qa.Testcases.HomeTest" ></class>

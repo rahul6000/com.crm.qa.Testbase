@@ -8,6 +8,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class Home extends TestBase {
 
+    //@FindBy(xpath = "//*[@id=\"search_query\"]") Wrong path to check the screenshot is working.
     @FindBy(xpath = "//*[@id=\"search_query_top\"]")
             @CacheLookup
     WebElement searchBar;
