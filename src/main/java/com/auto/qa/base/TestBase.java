@@ -2,9 +2,11 @@ package com.auto.qa.base;
 
 import com.auto.qa.util.TestUtil;
 import com.auto.qa.util.WebEventListener;
+import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.events.EventFiringWebDriver;
+
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -37,7 +39,8 @@ public class TestBase {
         String browserName = prop.getProperty("browser");
 
         if (browserName.equals("chrome")) {
-            System.setProperty("webdriver.chrome.driver", "/Users/rahul/Desktop/testing/chromedriver");
+            //System.setProperty("webdriver.chrome.driver", "/Users/rahul/Desktop/testing/chromedriver");
+            WebDriverManager.chromedriver().setup();
             driver = new ChromeDriver();
             e_driver = new EventFiringWebDriver(driver);
             // Now create object of EventListerHandler to register it with EventFiringWebDriver
